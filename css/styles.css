@@ -640,9 +640,48 @@ textarea{
 
 /* ORDENO EN DOS FILAS EL CONTENIDO DE 4 TARJETAS Q SE UBICAN EN DOS FILAS HORIZONTALES */
 .contenedor--p2{
-    
     display: flex;
     flex-direction: column;
+}
+
+.primer--flex{
+    width: 80%;
+    margin: 1rem auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primer--flex h2{
+    margin: 2rem 0rem;
+}
+
+.contenedor__tiendas{
+    width: 35vw;
+    margin: 0.5rem auto;
+
+}
+.contenedor__tiendas h2{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.contenedor__tiendas p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+#obs{
+    font-size: .9rem;
+    margin-top: 8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contenedor__tiendas strong{
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: var(--clr-secundario);
 }
 
 .contenedor--p2 p{
@@ -1725,6 +1764,21 @@ iframe{
 
 /* -------------FIN TRUCOS PARA RENOVAR------------- */
 /* ------------------------------------------------ */
+
+
+
+
+
+/* ------------COMIENZA CÓMO FUNCIONA? 420PX------------- */
+
+.primer--flex h1{
+    margin: 0 0 0 -0.8rem;  
+    font-size: 3rem;
+    padding: 0.8rem;
+}
+
+/*--------------FIN CÓMO FUNCIONA?---------------- */
+
 }
 
 
@@ -2237,12 +2291,12 @@ iframe{
     }
 
 
-/* ---------------FIN EMPEZA AHORA------------------ */
+/* ---------------FIN EMPEZA AHORA 60PX------------------ */
 
 
 
     
-    /* ---------------TRUCOS PARA RENOVAR-------------- */
+    /* ---------------TRUCOS PARA RENOVAR 600PX-------------- */
     .titulo--p3{
         flex-direction: column;
         align-items: center;   
@@ -2254,8 +2308,18 @@ iframe{
             padding: 0.8rem;
     }
     
-    /* -------------FIN TRUCOS PARA RENOVAR------------- */    
+    /* -------------FIN TRUCOS PARA RENOVAR 600PX------------- */    
 
+
+    /* ------------COMIENZA CÓMO FUNCIONA? 600PX------------- */
+
+.primer--flex h1{
+    margin: 0 0 0 -0.8rem;  
+    font-size: 3.4rem;
+    padding: 0.8rem;
+}
+
+/*--------------FIN CÓMO FUNCIONA? 600PX---------------- */
 
 }
 
@@ -2436,7 +2500,7 @@ iframe{
     #primerimg{
         width: 40vw;
     }
-    /* -------------------TERMINA HOME--------------*/
+    /* -------------------TERMINA HOME 850PX--------------*/
 
 
 
@@ -2721,11 +2785,11 @@ iframe{
         }
     
     
-    /* ---------------FIN EMPEZA AHORA------------------ */
+    /* ---------------FIN EMPEZA AHORA 850PX------------------ */
 
 
 
-    /* ------------------------- */
+    /* ------------TRUCOS PARA RENOVAR 850PX------------- */
   
     .titulo--p3{
         flex-direction: column; 
@@ -2737,6 +2801,19 @@ iframe{
         font-size: 3.8rem;
         padding: 0.8rem;
     }
+    /* -----------FIN TRUCOS PARA RENOVAR 850PX------------- */
+
+
+
+    /* ------------COMIENZA CÓMO FUNCIONA? 850PX------------- */
+
+        .primer--flex h1{
+            margin: 0 0 0 -0.8rem;  
+            font-size: 3.8rem;
+            padding: 0.8rem;
+        }
+    
+    /*--------------FIN CÓMO FUNCIONA? 850PX---------------- */
 
 }
 
@@ -2903,7 +2980,7 @@ iframe{
         width: 35vw;
     }
 
-    /*-----------------FIN HOME------------------ */
+    /*-----------------FIN HOME 1250PX------------------ */
     /* --------------------------------------------*/
   
 
@@ -2987,10 +3064,9 @@ iframe{
         filter: grayscale(0);
     }
 
-    /* ---------------------------------------- */
+    /* ---------------FIN SOBRE NOSOTROS 1250PX--------------- */
 
     
-   
 
 
       /* ---------------EMPEZA AHORA 1250px------------------ */
@@ -3168,11 +3244,11 @@ iframe{
     }
 
 
-/* ---------------FIN EMPEZA AHORA------------------ */
+/* ---------------FIN EMPEZA AHORA 1250PX------------------ */
 
 
 
-  /* ---------------TRUCOS PARA RENOVAR-------------- */
+  /* ---------------TRUCOS PARA RENOVAR 1250PX-------------- */
 
 .titulo--p3 h1{
     font-size: 4.8rem;
@@ -3186,8 +3262,22 @@ iframe{
     margin-top: 3rem;
 }
 
+/* -------------FIN TRUCOS PARA RENOVAR 1250PX------------- */
+
+
+
+/* ------------COMIENZA CÓMO FUNCIONA? 1250PX------------- */
+.primer--flex h1{
+    margin: 0 0 0 -0.8rem;  
+    font-size: 4.8rem;
+    padding: 0.8rem;
+    }
+
+/*--------------FIN CÓMO FUNCIONA? 1250PX---------------- */
+
+
 }
-/* -------------FIN TRUCOS PARA RENOVAR------------- */  
+  
 
 
 
@@ -3593,5 +3683,16 @@ iframe{
     }
 
 /* --------FIN TRUCOS PARA RENOVAR >1250PX-------------- */
+
+
+
+/* ------------COMIENZA CÓMO FUNCIONA? >1250PX------------- */
+.primer--flex h1{
+    margin: 0 0 0 -0.8rem;  
+    font-size: 5.4rem;
+    padding: 0.8rem;
+    }
+
+/*--------------FIN CÓMO FUNCIONA? 1250PX---------------- */
 
 }
