@@ -136,7 +136,8 @@ header ul li img{
 header ul li img:hover{
     transform: rotate(10deg) scale(1.2);
 }
-/* ---FIN HEADER/NAVBAR--- */
+/* ------------FIN HEADER/NAVBAR------------ */
+
 
 /*------------ BOTON SCROLL TOP----------- */
 .scroll__btn{
@@ -186,9 +187,7 @@ header ul li img:hover{
 
     100%{
         transform: translateY(0px);
-    }
-    
-    
+    }  
 }
 /*------------FIN BOTON SCROLL TOP----------- */
 
@@ -283,6 +282,7 @@ footer{
 }
 /*FIN 3ER COLUMNA - CONTACTO DE LA EMPRESA */
 
+
 /* 4TA COLUMNA - ESCRIBINOS, COMENTA */
 .comentarios{
     min-height: 15rem; 
@@ -350,20 +350,10 @@ textarea{
 #titulo{
     margin-bottom: 40rem;  
 }
-/* #home img{
-    position: absolute;
-    top:5.5rem;
-    z-index: -1;
-    width: 100vw;
-} */
-
 
 /* TARJETA EN PANTALLA PRINCIPAL */
 #comentario{
-    /* position: absolute; */
     width: 30%;
-    /* top: 15rem;
-    right: 5rem; */
     padding: 1rem;
     border-radius: var(--radio-fuerte);
     background-color: rgba(255, 255, 255, 0.658);
@@ -376,9 +366,7 @@ textarea{
     color: var(--clr-gris-fuerte);
     text-align: center;
 }
-.martillo{
-    /* position:absolute;
-    top:-2rem; */
+.home__martillo{
     font-size: 50px;
     color: var(--clr-gris-medio);
     animation: martillar 2s ease-in-out 1s infinite normal none;
@@ -405,9 +393,6 @@ textarea{
 /* ------CARD BAJO LA PANTALLA PRINCIPAL------ */
 
 .home__card2 i{
-    /* position: absolute; */
-    /* left: 21rem; */
-    
     font-size: 4rem;
     color: var(--clr-primario-hover);
     text-shadow: var(--clr-gris-fuerte)2px 2px 15px;
@@ -415,15 +400,12 @@ textarea{
     transform: rotate(-15deg);
 }
 .home__card2 div{
-    /* position: absolute; */
-    /* left: 25rem;
-    top: -2rem; */
     background-color: rgb(255, 255, 255);
     padding: 2rem;
     border-radius: var(--radio-fuerte);
     outline:1px solid var(--clr-primario-hover);
 }
-.parrafos h3{
+.home__parrafos h3{
     padding: 0.5rem;
     font-family: var(--fuente-1);
     font-size: 2rem;
@@ -440,7 +422,6 @@ textarea{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* height: 160rem; */
 }
 
 .pasos__contenedor h2{
@@ -496,7 +477,7 @@ textarea{
 }
 
 /* CALL TO ACTION QUE ME LLEVA A LA PAGINA PARA CARGAR DATOS Y HECER LA REFORMA */
-.btn{
+.pasos__btn{
     display: block;
     font-size: 1.5rem;
     font-weight: bold;
@@ -509,13 +490,13 @@ textarea{
     margin: 4rem auto;
     transition: all 300ms ease-in-out;
 }
-.btn:hover{
+.pasos__btn:hover{
     border: 1px solid var(--clr-gris-claro);
     outline: 6px solid var(--clr-primario-hover);
     background-color: white;
     color: var(--clr-gris-medio);
 }
-.btn-empeza{
+.pasos__btn-empeza{
     text-decoration: none;
 }
 
@@ -707,9 +688,8 @@ textarea{
     position: relative;
     width: 500PX;
     height: 250PX;
-    margin: 2rem 0rem 2rem 0rem;
+    margin: 2rem 1rem 2rem 1rem;
     display: flex;
-    /* justify-items: center; */
     align-items: center;
     background-color: white;
     border-radius: var(--radio-fuerte);
@@ -1277,7 +1257,7 @@ iframe{
         margin:auto; 
         display: block;  
     }
-    ul.listamenu li:nth-child(2){
+    ul.nav__listamenu li:nth-child(2){
         display: none;
     }
     header ul li:nth-child(3){
@@ -1291,7 +1271,7 @@ iframe{
     }
    
     /*ACTIVO O DESACTIVO MENU Y CAMBIO ICONOS DE MENU Y CERRAR---- */
-    #nav__checkbox:checked ~ ul.listamenu li{
+    #nav__checkbox:checked ~ ul.nav__listamenu li{
         display: block;     
     }
     #nav__checkbox:checked ~ label.nav__onoff .fas{
@@ -1394,7 +1374,7 @@ iframe{
         font-size: 3rem;
         color: var(--clr-secundario);
     }
-    .parrafos h3{
+    .home_parrafos h3{
         font-size: 1.6rem;
     }
 
@@ -1462,7 +1442,7 @@ iframe{
     width: 60vw;
     }
 
-    .btn{
+    .pasos__btn{
         width: 80vw;
         font-size: 1.2rem;
         padding: 0.5rem 1.5rem;
@@ -1777,6 +1757,36 @@ iframe{
     padding: 0.8rem;
 }
 
+.pasos__card--p2{
+    flex-direction: column;
+    width: 300PX;
+    height: auto;
+    margin: 4rem 0rem 4rem 0rem;
+}
+
+.pasos__card--p2 img{
+    width: 50vw;
+}
+
+.pasos__card--p2 p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.pasos__card--p2 p:last-child{
+    color: var(--clr-secundario);
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+#num-grande{
+    top: -2.5rem;
+     left: 0rem;
+    font-size: 5.5rem;
+    
+}
+.contenedor__tiendas{
+    width: 80vw;
+}
 /*--------------FIN CÓMO FUNCIONA?---------------- */
 
 }
@@ -1828,7 +1838,7 @@ iframe{
         margin:auto; 
         display: block;  
     }
-    ul.listamenu li:nth-child(2){
+    ul.nav__listamenu li:nth-child(2){
         display: none;
     }
     header ul li:nth-child(3){
@@ -1842,7 +1852,7 @@ iframe{
     }
 
     /*ACTIVO O DESACTIVO MENU Y CAMBIO ICONOS DE MENU Y CERRAR---- */
-    #nav__checkbox:checked ~ ul.listamenu li{
+    #nav__checkbox:checked ~ ul.nav__listamenu li{
         display: block;     
     }
     #nav__checkbox:checked ~ label.nav__onoff .fas{
@@ -1916,8 +1926,7 @@ iframe{
         background-color: #ffd90013;
         /* background: -webkit-linear-gradient(top, #fff, #ffd900); */
         box-shadow: rgba(143, 143, 143, 0.911) 3px 3px 15px;
-        border:4px solid var(--clr-secundario);
-        
+        border:4px solid var(--clr-secundario); 
     }
     #comentario h2{
         font-size: 1.8rem;
@@ -1937,6 +1946,9 @@ iframe{
         margin-top: -2rem;
         margin-left: -1rem;
     }
+    .home__martillo {
+        font-size: 60px;
+    } 
 
     .home__card2 div{
         width: 85%;
@@ -1948,7 +1960,7 @@ iframe{
         font-size: 3rem;
         color: var(--clr-secundario);
     }
-    .parrafos h3{
+    .home__parrafos h3{
         font-size: 1.6rem;
     }
 
@@ -2319,6 +2331,17 @@ iframe{
     padding: 0.8rem;
 }
 
+.pasos__card--p2{
+    width: 360PX;
+    height: auto; 
+}
+#num-grande{
+    top: -5rem;
+     left: -1rem;
+    font-size: 7rem;
+    
+}
+
 /*--------------FIN CÓMO FUNCIONA? 600PX---------------- */
 
 }
@@ -2439,7 +2462,7 @@ iframe{
         font-size: 4rem;
         color: var(--clr-secundario);
     }
-    .parrafos h3{
+    .home__parrafos h3{
         font-size: 2.2rem;
     }
 
@@ -2916,7 +2939,7 @@ iframe{
         font-size: 5rem;
         color: var(--clr-secundario);
     }
-    .parrafos h3{
+    .home__parrafos h3{
         font-size: 3rem;
     }
 
@@ -2930,6 +2953,8 @@ iframe{
     
     .pasos__contenedor{
         margin: 0rem auto;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .pasos__card{
@@ -3370,7 +3395,7 @@ iframe{
         font-size: 5rem;
         color: var(--clr-secundario);
     }
-    .parrafos h3{
+    .home__parrafos h3{
         font-size: 2.5rem;
     }
 
